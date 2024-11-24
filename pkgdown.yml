@@ -1,0 +1,13 @@
+pandoc: 3.1.11
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  first-px-file: first-px-file.html
+  languages: languages.html
+  micro-files: micro-files.html
+  register_based_statistics: register_based_statistics.html
+  statistics_greenland: statistics_greenland.html
+last_built: 2024-11-24T12:57Z
+urls:
+  reference: https://statisticsgreenland.github.io/pxmake/reference
+  article: https://statisticsgreenland.github.io/pxmake/articles
