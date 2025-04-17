@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">pxmake</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.12.1.9004</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.17.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,11 +18,9 @@
       <ul class="navbar-nav me-auto"><li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/first-px-file.html">First px file</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/first-px-file.html">First PX-file</a></li>
     <li><a class="dropdown-item" href="../articles/languages.html">Languages</a></li>
     <li><a class="dropdown-item" href="../articles/micro-files.html">Micro files</a></li>
-    <li><a class="dropdown-item" href="../articles/register_based_statistics.html">Register based statistics</a></li>
-    <li><a class="dropdown-item" href="../articles/statistics_greenland.html">Statistics Greenland</a></li>
   </ul></li>
 <li class="nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
@@ -72,6 +70,12 @@
 
         </dt>
         <dd>Save px object to file</dd>
+      </dl><dl><dt>
+
+          <code><a href="px_save_classification.html">px_save_classification()</a></code>
+
+        </dt>
+        <dd>Save classification as .vs and .agg files</dd>
       </dl></div><div class="section level2">
       <h2 id="modify-px-object">Modify px object<a class="anchor" aria-label="anchor" href="#modify-px-object"></a></h2>
 
@@ -79,41 +83,6 @@
 
 
     </div><div class="section level2">
-
-      <h3 id="special-modifying-functions">Special modifying functions<a class="anchor" aria-label="anchor" href="#special-modifying-functions"></a></h3>
-      <div class="section-desc"><p>Modifying functions that does not have a specific px keyword.</p></div>
-
-
-    </div><div class="section level2">
-
-
-
-
-      <dl><dt>
-
-          <code><a href="px_add_totals.px.html">px_add_totals()</a></code>
-
-        </dt>
-        <dd>Add total levels to variables</dd>
-      </dl><dl><dt>
-
-          <code><a href="px_figures.px.html">px_figures()</a></code>
-
-        </dt>
-        <dd>Change figures variable</dd>
-      </dl><dl><dt>
-
-          <code><a href="px_order.px.html">px_order()</a></code>
-
-        </dt>
-        <dd>Change value order</dd>
-      </dl><dl><dt>
-
-          <code><a href="px_variable_label.px.html">px_variable_label()</a></code>
-
-        </dt>
-        <dd>Change VARIABLE-LABEL</dd>
-      </dl></div><div class="section level2">
 
       <h3 id="px-keywords">px Keywords<a class="anchor" aria-label="anchor" href="#px-keywords"></a></h3>
       <div class="section-desc"><p>Modifying functions that match a specific px keyword.</p></div>
@@ -413,6 +382,41 @@
         </dt>
         <dd>VARIABLE-TYPE</dd>
       </dl></div><div class="section level2">
+
+      <h3 id="special-modifying-functions">Special modifying functions<a class="anchor" aria-label="anchor" href="#special-modifying-functions"></a></h3>
+      <div class="section-desc"><p>Modifying functions that do not relate to a specific px keyword.</p></div>
+
+
+    </div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="px_add_totals.px.html">px_add_totals()</a></code>
+
+        </dt>
+        <dd>Add total levels to variables</dd>
+      </dl><dl><dt>
+
+          <code><a href="px_figures.px.html">px_figures()</a></code>
+
+        </dt>
+        <dd>Change figures variable</dd>
+      </dl><dl><dt>
+
+          <code><a href="px_order.px.html">px_order()</a></code>
+
+        </dt>
+        <dd>Change value order</dd>
+      </dl><dl><dt>
+
+          <code><a href="px_variable_label.px.html">px_variable_label()</a></code>
+
+        </dt>
+        <dd>Change VARIABLE-LABEL</dd>
+      </dl></div><div class="section level2">
       <h2 id="special-functions">Special functions<a class="anchor" aria-label="anchor" href="#special-functions"></a></h2>
 
 
@@ -428,13 +432,36 @@
           <code><a href="px_micro.html">px_micro()</a></code>
 
         </dt>
-        <dd>Create micro px files</dd>
+        <dd>Create micro PX-files</dd>
       </dl><dl><dt>
 
           <code><a href="px_validate.html">px_validate()</a></code>
 
         </dt>
-        <dd>Validate px object</dd>
+        <dd>Check px object</dd>
+      </dl></div><div class="section level2">
+      <h2 id="collections-value-set-and-aggregations-">Collections (value set and aggregations)<a class="anchor" aria-label="anchor" href="#collections-value-set-and-aggregations-"></a></h2>
+
+
+
+
+    </div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="px_classification.html">px_classification()</a></code>
+
+        </dt>
+        <dd>Create a classification object</dd>
+      </dl><dl><dt>
+
+          <code><a href="px_save_classification.html">px_save_classification()</a></code>
+
+        </dt>
+        <dd>Save classification as .vs and .agg files</dd>
       </dl></div><div class="section level2">
       <h2 id="built-in-datasets">Built in datasets<a class="anchor" aria-label="anchor" href="#built-in-datasets"></a></h2>
 
@@ -464,6 +491,12 @@
 
         </dt>
         <dd>px keywords</dd>
+      </dl><dl><dt>
+
+          <code><a href="age_classification.html">age_classification</a></code>
+
+        </dt>
+        <dd>Age classification</dd>
       </dl></div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>
